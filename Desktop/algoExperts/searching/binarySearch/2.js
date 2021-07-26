@@ -4,7 +4,7 @@ function binarySearch(array, target) {
 
 function binarySearchHelper(array, target, left, right) {
     while (left <= right) {
-        const middle = Math.floot((left + right) / 2);
+        const middle = Math.floor((left + right) / 2);
         const potentialMatch = array[middle];
         if (target === potentialMatch) {
             return middle
